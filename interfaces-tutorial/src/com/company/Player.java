@@ -14,7 +14,7 @@ public class Player {
 
     // Player takes `amount` damage
     public void takeDamage(int amount) {
-        this.hp -= amount;
+        hp -= amount;
         if (hp <= 0) {
             System.out.println(name + " has died. Respawning!");
             hp = MAX_HP;
